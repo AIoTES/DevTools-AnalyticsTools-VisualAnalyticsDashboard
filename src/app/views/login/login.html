@@ -1,0 +1,17 @@
+<div class="login-layout">
+    <div class="content shadow-center-25">
+        <h3 class="text-center capitalize">Login</h3>
+        <br />
+        <br />
+        <form ng-submit="authenticateUser()" novalidate style="text-align: center">
+            <input ng-model="credentials.username" type="text" placeholder="email"  style="width: 100%; padding: 10px!important;">
+            <br><br>
+            <input ng-model="credentials.password" type="password" placeholder="password" style="padding: 10px!important;">
+            <br /><br />
+
+            <button class="text-center btn-blue capitalize" type="submit">
+                Login
+            </button>
+        </form>
+    </div>
+</div>

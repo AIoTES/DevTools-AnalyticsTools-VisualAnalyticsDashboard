@@ -1,0 +1,51 @@
+.avatar {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    // border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+    vertical-align: middle;
+    zoom:0.70;
+    transform: translateZ(0);
+    -webkit-transform: scale(0.70);
+    -moz-transform:scale(0.70);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.separator {
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.column-indicator {
+    margin: 0;
+    background: #f1f2f7;
+    li{
+        padding: 5px;
+    }
+}
+
+.marg-top-bottom-15 {
+    margin: 15px 0;
+}
+
+.bg-white {
+    background: white;
+}
+
+#dashboard-content {
+    #dashboard-sidenav {
+        .charts {
+            .chart-item.active {
+                background: white!important;
+                color: #02a8e0!important;
+                box-shadow: none!important;
+            }
+        }
+    }
+}

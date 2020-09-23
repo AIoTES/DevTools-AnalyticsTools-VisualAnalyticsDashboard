@@ -1,0 +1,15 @@
+version: "3.0"
+services:
+    dataanalyzer:
+        image: "certh/dataanalyzer:1.6"
+        environment:
+            - "LOGIN_PATH=http://160.40.50.193:3000/api/activage/login"
+            - "DATA_ANALYTICS_API_URL=https://iti-263.iti.gr:9081/analytics"
+            - "SEMANTIC_TRANSLATION_API_URL=http://123"
+            - "DATA_LAKE_API_URL=http://123"
+            - "TRANSFER_FILES_URL=http://160.40.50.193:3000/api/activage"
+        command:
+            - "/bin/bash"
+            - "/usr/share/nginx/html/start.sh"
+        ports:
+            - "4650:4650"

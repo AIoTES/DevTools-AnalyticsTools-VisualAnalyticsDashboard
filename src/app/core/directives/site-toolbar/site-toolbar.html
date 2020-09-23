@@ -1,0 +1,15 @@
+<md-toolbar class="site-toolbar md-whiteframe-z1" ng-class="{'md-hue-2':vm.showSearch}">
+    <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Menu" hide-gt-sm ng-click="vm.toggleSidenav('left')">
+            <md-icon md-font-icon="material-icons">menu</md-icon>
+        </md-button>
+        <h2 class="md-toolbar-tools" ng-if="!vm.showSearch" ng-bind-html="toolbarTitle"></h2>        
+        <md-button class="md-icon-button" aria-label="Search" ng-click="vm.toggleSearch()" ng-if="toolbarSearch!==undefined">
+            <md-icon md-font-icon="material-icons" ng-if="!vm.showSearch">search</md-icon>
+            <md-icon md-font-icon="material-icons" ng-if="vm.showSearch">arrow_back</md-icon>
+        </md-button>
+        <md-input-container flex md-no-float class="md-toolbar-tools" ng-show="vm.showSearch">
+            <input ng-model="toolbarSearch" placeholder="Search">
+        </md-input-container>
+    </div>
+</md-toolbar>

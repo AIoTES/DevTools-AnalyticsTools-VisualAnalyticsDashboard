@@ -1,0 +1,24 @@
+{
+    "data":[{
+        "value": "Feature extraction",
+        "id": "efeature"
+    }, {
+        "value": "Feature selection",
+        "id": "sfeature"
+    }, {
+        "value": "Anomaly detection",
+        "id": "anomalydetection"
+    }, {
+        "value": "Probabilistic prediction models",
+        "id": "pprediction"
+    }, {
+        "value": "Time series prediction",
+        "id": "sprediction"
+    }, {
+        "value": "Clustering",
+        "id": "clustering"
+    }, {
+        "value": "Hypothesis testing",
+        "id": "hypothesis"
+    }]
+}

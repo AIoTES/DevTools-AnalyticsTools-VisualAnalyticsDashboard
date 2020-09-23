@@ -1,0 +1,77 @@
+{
+	"charts": ["radar"],
+	"type": "multi-dimensional",
+	"data": [{
+		"key": "1001",
+		"values": [{
+			"key": "anxiety_perception",
+			"value": 5.25
+		}, {
+			"key": "comorbidities_count",
+			"value": 6
+		}, {
+			"key": "depression_total_score",
+			"value": 1
+		}, {
+			"key": "life_quality",
+			"value": 7.5
+		}, {
+			"key": "pain_perception",
+			"value": 4.5
+		}]
+	}, {
+		"key": "1002",
+		"values": [{
+			"key": "anxiety_perception",
+			"value": 7.949999999999999
+		}, {
+			"key": "comorbidities_count",
+			"value": 8.5
+		}, {
+			"key": "depression_total_score",
+			"value": 5.5
+		}, {
+			"key": "life_quality",
+			"value": 7.75
+		}, {
+			"key": "pain_perception",
+			"value": 3.55
+		}]
+	}, {
+		"key": "1003",
+		"values": [{
+			"key": "anxiety_perception",
+			"value": 3.65
+		}, {
+			"key": "comorbidities_count",
+			"value": 9
+		}, {
+			"key": "depression_total_score",
+			"value": 0.5
+		}, {
+			"key": "life_quality",
+			"value": 8
+		}, {
+			"key": "pain_perception",
+			"value": 3.9000000000000004
+		}]
+	}, {
+		"key": "1004",
+		"values": [{
+			"key": "anxiety_perception",
+			"value": 5.699999999999999
+		}, {
+			"key": "comorbidities_count",
+			"value": 11.5
+		}, {
+			"key": "depression_total_score",
+			"value": 4.5
+		}, {
+			"key": "life_quality",
+			"value": 7.85
+		}, {
+			"key": "pain_perception",
+			"value": 7.1
+		}]
+	}]
+}

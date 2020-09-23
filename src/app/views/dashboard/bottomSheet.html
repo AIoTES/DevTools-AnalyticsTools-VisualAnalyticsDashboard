@@ -1,0 +1,44 @@
+<md-bottom-sheet class="md-list md-has-header">
+	<md-subheader ng-bind-html="vm.headerTitle"></md-subheader>
+
+	<md-list>
+		<md-list-item>
+			<div layout="column" layout-gt-sm="row" layout-align-gt-sm="start center" layout-align="start center" layout-padding>
+				<div class="item">
+					<span>Choose category:</span>
+					<md-input-container>
+						<label>Category</label>
+						<md-select ng-model="vm.selectedCategory">
+							<md-option ng-repeat="category in vm.categories" value="{{category.id}}">{{category.value}}</md-option>
+						</md-select>
+					</md-input-container>
+				</div>
+				<div class="item" ng-if="vm.selectedCategory">
+					<span>Choose method:</span>
+					<md-input-container>
+						<label>Method</label>
+						<md-select ng-model="vm.selectedMethod" ng-change="vm.doMethod()">
+							<md-option ng-repeat="method in vm.methods[vm.selectedCategory]" value="{{method.id}}" ng-disabled="{{method.disabled}}">{{method.value}}</md-option>
+						</md-select>
+					</md-input-container>
+				</div>
+				<div ng-if="vm.selectedMethod && vm.params.length" layout="column">
+					<h5>Choose parameter(s)</h5>
+					<div ng-repeat="(key, params) in vm.params">
+						<div layout="row" layout-align="space-between center">
+							<md-input-container>
+								<label>Parameter {{key+1}}</label>
+								<md-select ng-model="vm.selectedParam[key]">
+									<md-option ng-repeat="param in params" value="{{param.id}}">{{param.value}}</md-option>
+								</md-select>
+							</md-input-container>
+						</div>
+					</div>
+				</div>
+				<div ng-if="vm.selectedMethod">
+					<md-button class="md-raised md-primary" ng-click="vm.analyze()">Apply</md-button>
+				</div>
+			</div>
+		</md-list-item>
+	</md-list>
+</md-bottom-sheet>

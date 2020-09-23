@@ -1,0 +1,131 @@
+#dashboard-content {
+    height: 100%;
+    #dashboard-toolbar{
+        background: #f6f6f6 !important;
+        color: #202020 !important;
+        z-index: 2;
+        md-icon {
+            color: #202020 !important;
+            fill: #202020 !important;
+        }
+
+        .logo {
+            margin-right: 8px;
+            img {
+                height: 48px;
+            }
+        }
+        .datepicker-container {
+            md-datepicker {
+                .md-datepicker-button {
+                    display: none;
+                }
+                .md-datepicker-input-container {
+                    margin-left: 0;
+                }
+            }
+            +.datepicker-container {
+                margin-left: 12px;
+            }
+        }
+        
+    }
+    #dashboard-sidenav {
+        &.md-locked-open {
+            z-index: 2;
+        }
+        md-toolbar {
+            background: #f6f6f6 !important;
+            color: #202020 !important;
+
+            .logo {
+                img {
+                    max-width: 140px;
+                }
+                margin: 10px auto;
+            }
+
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .sidebar-header {
+            padding: 15px 10px 0 10px;
+            >label {
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    
+        #uploadButton {
+            height: 50px!important;
+        }
+
+        .charts {
+            .chart-item {
+                border: 1px solid rgba(0,0,0,0.2);
+                height: 50px;
+                text-align: center;
+                width: 70px;
+                min-width: 70px;
+                cursor: pointer;
+                p{
+                    font-size: 10px;
+                    white-space: nowrap;
+                    width: 100%;
+                    position: absolute;
+                    bottom: -20px;
+                    left: 0;
+                    text-align: center;
+                }
+            }
+
+            .chart-item.hoverable:hover{
+                border: 1px solid rgb(2,168,224);
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.47);
+            }
+
+            .chart-item.active {
+                border: 1px solid rgb(2,168,224);
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.47);
+            }
+        }
+
+        .md-button[disabled] {
+            color: rgba(0,0,0,0.1);
+        }
+        
+        .md-button p {
+            font-weight: bold;
+        }
+    }
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-black {
+    color: black;
+}
+
+fieldset {
+    border: none;
+}
+
+.visyalAnalyticsSeparator {
+    border-bottom: 1px solid #ccc;
+}
+
+.modal-backdrop{z-index: 2!important;}
+
+input[type="text"] {
+  border: 1px solid #dfdfdf!important;
+    padding: 20px!important;
+}
+

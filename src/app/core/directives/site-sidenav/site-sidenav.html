@@ -1,0 +1,13 @@
+<md-sidenav class="site-sidenav md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
+    <md-toolbar class="md-tall md-whiteframe-z1">
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="Logo">
+        </div>
+    </md-toolbar>
+
+    <md-content role="navigation">
+        <div ng-if="vm.tree">
+            <div js-tree="vm.tree.config" should-apply="vm.applyModelChanges()" ng-model="vm.tree.data" tree="vm.tree.instance" tree-events-obj="vm.tree.events"></div>
+        </div>
+    </md-content>
+</md-sidenav>

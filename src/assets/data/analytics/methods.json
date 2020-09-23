@@ -1,0 +1,97 @@
+{
+    "data": {
+        "efeature": [{
+            "id": "summarization",
+            "value": "Summarization",
+            "disabled": true
+        }, {
+            "id": "histogram",
+            "value": "Histogram",
+            "disabled": false,
+            "param1": [{
+                "id": "foo1_1",
+                "value": "foo1_1"
+            }, {
+                "id": "foo1_2",
+                "value": "foo1_2"
+            }],
+            "param2": [{
+                "id": "foo2_1",
+                "value": "foo2_1"
+            }, {
+                "id": "foo2_2",
+                "value": "foo2_2"
+            }]
+        }, {
+            "id": "pca",
+            "value": "PCA",
+            "disabled": true
+        }, {
+            "id": "neural",
+            "value": "Neural Network-based",
+            "disabled": true
+        }],
+        "sfeature": [{
+            "id": "filter",
+            "value": "Filter Method",
+            "disabled": true
+        }, {
+            "id": "wrapper",
+            "value": "Wrapper Method",
+            "disabled": true
+        }],
+        "anomalydetection": [{
+            "id": "cusum",
+            "value": "CUSUM",
+            "disabled": true
+        }, {
+            "id": "lof",
+            "value": "LOF",
+            "disabled": false
+        }, {
+            "id": "elof",
+            "value": "Extended LOF",
+            "disabled": true
+        }, {
+            "id": "brpca",
+            "value": "BRPCA",
+            "disabled": true
+        }, {
+            "id": "centroid",
+            "value": "Weighted range-based centroid",
+            "disabled": true
+        }],
+        "pprediction": [{
+            "id": "hmm",
+            "value": "HMM",
+            "disabled": true
+        }],
+        "sprediction": [{
+            "id": "arima",
+            "value": "ARIMA",
+            "disabled": true
+        }, {
+            "id": "lag-starima",
+            "value": "Lag-STARIMA",
+            "disabled": true
+        }],
+        "clustering": [{
+            "id": "kmeans",
+            "value": "k-means",
+            "disabled": true
+        }, {
+            "id": "dbscan",
+            "value": "DBSCAN",
+            "disabled": true
+        }, {
+            "id": "hierarchical",
+            "value": "Hierarchical",
+            "disabled": true
+        }],
+        "hypothesis": [{
+            "id": "t-test",
+            "value": "t-test",
+            "disabled": true
+        }]
+    }
+}

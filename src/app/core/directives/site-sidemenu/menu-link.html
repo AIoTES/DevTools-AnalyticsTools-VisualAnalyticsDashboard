@@ -1,0 +1,9 @@
+<md-button ng-click="select()" ng-class="{'active': isSelected(section)}">
+    <md-icon ng-if="section.icon" md-font-icon="material-icons" >{{section.icon}}</md-icon>
+    <md-icon ng-if="section.avatar" md-svg-icon="{{section.avatar}}" class="avatar"></md-icon>
+    <img ng-if="section.image" ng-src="{{section.image}}" error-src="{{section.altImage}}" class="avatar"/>
+    {{section.name}}
+    <span class="md-visually-hidden " ng-if="isSelected(section)">
+        current page
+    </span>
+</md-button>

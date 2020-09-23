@@ -1,0 +1,31 @@
+@import 'core/scss/partials/reset';
+@import 'core/scss/partials/variables';
+@import 'core/scss/partials/mixins';
+@import 'core/scss/partials/angular-material-extend';
+@import 'core/scss/partials/animations';
+@import 'core/scss/partials/colors';
+@import 'core/scss/partials/typography';
+@import 'core/scss/partials/helpers';
+@import 'core/scss/partials/utils';
+@import 'core/scss/partials/icons';
+@import 'core/scss/partials/jstree-proton';
+// @import 'core/scss/partials/d3';
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  min-width: 70px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.22);
+}

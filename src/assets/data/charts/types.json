@@ -1,0 +1,168 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "label": "Graph",
+            "alias": "graph",
+            "image": "/assets/img/ChartLine.png",
+            "properties": [{
+                "type": "singleSelect",
+                "label": "Select nodes column",
+                "modelVariable": "nodes"
+            },{
+                "type": "singleSelect",
+                "label": "Select links column",
+                "modelVariable": "links"
+            },{
+                "type": "singleInnerSelect",
+                "innerObjectProperty": "nodes",
+                "label": "Select color column",
+                "modelVariable": "color"
+            }]
+        },
+        {
+            "id": 2,
+            "label": "Scatter",
+            "alias": "scatter",
+            "image": "/assets/img/ChartLine.png",
+            "properties": [{
+                "type": "singleSelect",
+                "label": "Select x axis",
+                "modelVariable": "xAxis"
+            },{
+                "type": "singleSelect",
+                "label": "Select y axis",
+                "modelVariable": "yAxis"
+            },{
+                "type": "singleSelect",
+                "label": "Select color column",
+                "modelVariable": "color"
+            }]
+        },
+        {
+            "id": 3,
+            "label": "Bar",
+            "alias": "bar",
+            "image": "/assets/img/ChartLine.png",
+            "properties": [{
+                "type": "singleSelect",
+                "label": "Select x axis",
+                "modelVariable": "xAxis"
+            },{
+                "type": "singleSelect",
+                "label": "Select y axis",
+                "modelVariable": "yAxis"
+            }]
+        },
+        {
+            "id": 4,
+            "label": "Line",
+            "alias": "line",
+            "image": "/assets/img/ChartLine.png",
+            "properties": [{
+                "type": "singleSelect",
+                "label": "Select x axis",
+                "modelVariable": "xAxis"
+            },{
+                "type": "singleSelect",
+                "label": "Select first series",
+                "modelVariable": "yAxis1"
+            },{
+                "type": "singleSelect",
+                "label": "Select second series",
+                "modelVariable": "yAxis2"
+            }]
+        },
+        {
+            "id": 5,
+            "label": "Pie",
+            "alias": "pie",
+            "image": "/assets/img/ChartLine.png",
+            "properties": [{
+                "type": "singleSelect",
+                "label": "Select x axis",
+                "modelVariable": "xAxis"
+            },{
+                "type": "singleSelect",
+                "label": "Select y axis",
+                "modelVariable": "yAxis"
+            }]
+        },
+        {
+            "id": 6,
+            "label": "Doughnut",
+            "alias": "doughnut",
+            "image": "/assets/img/ChartLine.png",
+            "properties": [{
+                "type": "singleSelect",
+                "label": "Select x axis",
+                "modelVariable": "xAxis"
+            },{
+                "type": "singleSelect",
+                "label": "Select y axis",
+                "modelVariable": "yAxis"
+            }]
+        },
+        {
+            "id": 7,
+            "label": "Radar",
+            "alias": "radar",
+            "image": "/assets/img/ChartLine.png",
+            "properties": [{
+                "type": "multipleSelect",
+                "label": "Select any axis",
+                "modelVariable": "axis"
+            }]
+        }
+    ],
+    "data1": [
+        {
+            "id": 1,
+            "label": "Graph",
+            "alias": "graph",
+            "image": "/assets/img/ChartLine.png"
+        },
+        {
+            "id": 2,
+            "label": "Scatter",
+            "alias": "scatter",
+            "image": "/assets/img/ChartLine.png"
+        },
+        {
+            "id": 3,
+            "label": "Bar",
+            "alias": "bar",
+            "image": "/assets/img/ChartLine.png"
+        },
+        {
+            "id": 4,
+            "label": "Line",
+            "alias": "line",
+            "image": "/assets/img/ChartLine.png"
+        },
+        {
+            "id": 5,
+            "label": "Pie",
+            "alias": "pie",
+            "image": "/assets/img/ChartLine.png"
+        },
+        {
+            "id": 6,
+            "label": "Doughnut",
+            "alias": "doughnut",
+            "image": "/assets/img/ChartLine.png"
+        },
+        {
+            "id": 7,
+            "label": "Radar",
+            "alias": "radar",
+            "image": "/assets/img/ChartLine.png"
+        },
+        {
+            "id": 8,
+            "label": "Parallel",
+            "alias": "parallel",
+            "image": "/assets/img/ChartLine.png"
+        }
+    ]
+}

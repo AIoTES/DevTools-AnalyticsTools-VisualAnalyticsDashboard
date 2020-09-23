@@ -1,0 +1,159 @@
+.jstree-proton {
+    font-family: $font-family-body;
+
+    .jstree-checkbox-disabled {
+        display: none;
+    }
+
+    .jstree-node,
+    .jstree-icon {
+        background-image: url("../assets/img/jstree-proton/32px.png");
+    }
+    .jstree-file{
+        background: url("../assets/img/jstree-proton/32px.png") -101px -69px no-repeat;
+    }
+    .jstree-folder {
+        background: url("../assets/img/jstree-proton/32px.png") -261px -5px no-repeat;
+    }
+    .jstree-themeicon-custom {
+        background-color: transparent;
+        background-size: 320px 96px;
+        background-image: none;
+        background-position: 0 0;
+    }
+
+    .jstree-node {
+        position: relative!important;
+        min-height: 42px;
+        .jstree-ocl {
+            margin-top: 0.5em;
+        }
+
+        .jstree-anchor {
+            vertical-align: bottom;
+            -webkit-margin-before: 8px;
+            -webkit-margin-after: 8px;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-size: 14.4px;
+
+            .jstree-themeicon {
+                font-size: 22px;
+                margin: 0 5px;
+                color: #0d204480;
+                line-height: 18px;
+            }
+        }
+        
+        .jstree-wholerow {
+            height: 42px!important;
+        }
+    }
+
+    .jstree-wholerow, .jstree-wholerow-clicked {
+        background: none !important;
+    }
+    .jstree-clicked {
+        color: inherit;
+    }
+    .jstree-hovered {
+        color: #02A8E0;
+        background: none !important;
+    }     
+}
+
+.jstree-proton-small {
+    .jstree-node,
+    .jstree-icon {
+        background-size: 320px 96px;
+        background-image: url("../assets/img/jstree-proton/32px.png");
+    }
+    .jstree-file {
+        background: url("../assets/img/jstree-proton/32px.png") -103px -71px no-repeat;
+    }
+    .jstree-folder {
+        background: url("../assets/img/jstree-proton/32px.png") -263px -7px no-repeat;
+    }
+    .jstree-themeicon-custom {
+        background-color: transparent;
+        background-size: 320px 96px;
+        background-image: none;
+        background-position: 0 0;
+    }
+}
+
+.jstree-proton-large {
+    .jstree-node,
+    .jstree-icon {
+        background-size: 320px 96px;
+        background-image: url("../assets/img/jstree-proton/32px.png");
+    }
+    .jstree-file {
+        background: url("../assets/img/jstree-proton/32px.png") -96px -64px no-repeat;
+    }
+    .jstree-folder {
+        background: url("../assets/img/jstree-proton/32px.png") -256px 0px no-repeat;
+    }
+    .jstree-themeicon-custom {
+        background-color: transparent;
+        background-size: 320px 96px;
+        background-image: none;
+        background-position: 0 0;
+    }
+}
+
+#jstree-dnd {
+    &.jstree-proton {
+        .jstree-ok,
+        .jstree-er {
+            background-image: url("../assets/img/jstree-proton/32px.png");
+        }
+    }
+    &.jstree-proton-small {
+        .jstree-ok,
+        .jstree-er {
+            background-image: url("../assets/img/jstree-proton/32px.png");
+        }
+    }
+    &.jstree-proton-small {
+        .jstree-ok,
+        .jstree-er {
+            background-image: url("../assets/img/jstree-proton/32px.png");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #jstree-dnd.jstree-dnd-responsive {
+        > .jstree-ok {
+            background-image: url("../assets/img/jstree-proton/30px.png");
+        }
+        > .jstree-er {
+            background-image: url("../assets/img/jstree-proton/30px.png");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .jstree-proton-responsive {
+        .jstree-node,
+        .jstree-icon,
+        .jstree-node > .jstree-ocl,
+        .jstree-themeicon,
+        .jstree-checkbox {
+            background-image: url("../assets/img/jstree-proton/30px.png");
+        }
+        .jstree-file {
+            background: url("../assets/img/jstree-proton/30px.png") 0 -120px no-repeat;
+        }
+        .jstree-folder {
+            background: url("../assets/img/jstree-proton/30px.png") -30px -30px no-repeat;
+        }
+    }
+
+    .jstree-themeicon-custom {
+        background-color: transparent;
+        background-image: none;
+        background-position: 0 0;
+    }
+}

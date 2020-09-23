@@ -1,0 +1,132 @@
+{
+  "deviceTypes": [
+    {
+      "id": "0",
+      "label": "Motion Sensor"
+    },
+    {
+      "id": "1",
+      "label": "Door Sensor"
+    },
+    {
+      "id": "2",
+      "label": "Panic Button"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "universAAL",
+      "label": "UniversAAL"
+    },
+    {
+      "id": "FIWARE",
+      "label": "FIWARE"
+    },
+    {
+      "id": "SOFIA2",
+      "label": "SOFIA2"
+    },
+    {
+      "id": "OPENIOT",
+      "label": "OPENIOT"
+    },
+    {
+      "id": "sensiNact",
+      "label": "sensiNact"
+    },
+    {
+      "id": "IoTivity",
+      "label": "IoTivity"
+    },
+    {
+      "id": "SeniorSome",
+      "label": "SeniorSome"
+    }
+  ],
+  "ds": [
+    {
+      "id": "Galicia",
+      "label": "Galicia"
+    },
+    {
+      "id": "Valencia",
+      "label": "Valencia"
+    },
+    {
+      "id": "Madrid",
+      "label": "Madrid"
+    },
+    {
+      "id": "Italy",
+      "label": "Italy"
+    },
+    {
+      "id": "sensiNact",
+      "label": "sensiNact"
+    },
+    {
+      "id": "Greece-DCCG",
+      "label": "Greece-DCCG"
+    },
+    {
+      "id": "Greece",
+      "label": "Greece"
+    },
+    {
+      "id": "Greece-MPH",
+      "label": "Greece-MPH"
+    },
+    {
+      "id": "Greece-MM",
+      "label": "Greece-MM"
+    },
+    {
+      "id": "Greece-Mobility",
+      "label": "Greece-Mobility"
+    },
+    {
+      "id": "Isere",
+      "label": "Isere"
+    },
+    {
+      "id": "Germany-Weiterstadt",
+      "label": "Germany-Weiterstadt"
+    },
+    {
+      "id": "Germany-Treuchtlingen",
+      "label": "Germany-Treuchtlingen"
+    },
+    {
+      "id": "Germany-Rodgau",
+      "label": "Germany-Rodgau"
+    },
+    {
+      "id": "Germany-Stuttgard",
+      "label": "Germany-Stuttgard"
+    },
+    {
+      "id": "Germany-Turkheim",
+      "label": "Germany-Turkheim"
+    },
+    {
+      "id": "Leeds",
+      "label": "Leeds"
+    },
+    {
+      "id": "Finland-Turku",
+      "label": "Finland-Turku"
+    },
+    {
+      "id": "Finland-Oulu",
+      "label": "Finland-Oulu"
+    },
+    {
+      "id": "Finland-Tampere",
+      "label": "Finland-Tampere"
+    },
+    {
+      "id": "Finland-Helsinki",
+      "label": "Finland-Helsinki"
+    }
+  ]
+}
