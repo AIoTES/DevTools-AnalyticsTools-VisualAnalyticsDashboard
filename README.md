@@ -39,3 +39,7 @@ For the aforementioned visual analytics methods, there are the following files (
 * Pie chart: indoor_movements.json
 * Doughnut chart: indoor_movements.json
 * Radar chart: user_profiles.json
+
+## License
+
+Apache 2.0
