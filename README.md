@@ -9,6 +9,14 @@ The Visual Analytics platform contains several different visual analytics method
 * Radar chart
 * Graph plot
 
+## Building
+The Visual Analytics platform is a web application, so there is no need to build the source code. To run the application, download the source code, move to its home directory and run the following commands:
+
+```
+npm install
+npm start
+```
+
 ## Deployment
 Before deploying the tool, the file transfer server must be first deployed: https://git.activageproject.eu/Deployment/DT-AIOTES_docker/src/master/Files_Transfer
 
