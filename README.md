@@ -10,12 +10,7 @@ The Visual Analytics platform contains several different visual analytics method
 * Graph plot
 
 ## Building
-The Visual Analytics platform is a web application, so there is no need to build the source code. To run the application, download the source code, move to its home directory and run the following commands:
-
-```
-npm install
-npm start
-```
+The Visual Analytics platform is an NGINX web application. To run the application, copy the source code directory to the public folder of the NGINX server, and start the application.
 
 ## Deployment
 Before deploying the tool, the file transfer server must be first deployed: https://git.activageproject.eu/Deployment/DT-AIOTES_docker/src/master/Files_Transfer
